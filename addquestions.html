@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quizz</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="add-questions">
+        <button id="addQuestions">Go Back</button>
+    </div>
+    <form type="post" id="quizz">
+        <label for="yourquestion">What is the question you want to add?</label>
+        <br/><br/><input id="yourquestion" type="text">
+        <br/>
+        <br/>
+        <label for="answer">Add in 4 possible responses : </label>
+        <br/><br/><input name="answer" id="1" type="text"><br/><br/>
+        <input name="answer" id="2" type="text"><br/><br/>
+        <input name="answer" id="3" type="text"><br/><br/>
+        <input name="answer" id="4" type="text"><br/><br/><br/>
+        <label for="solution">And finally put in the right answer (digit from 1 to 4) : </label>
+        <br/><br/><input name="solution" id="solution" type="text"><br/><br/>
+        <input type="submit">
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script/addquestions.js"></script>
+</body>
+</html>
